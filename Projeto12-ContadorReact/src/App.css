@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: brown;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+    /* width: 200px;
+    height: 300px; */
+}
+
+p {
+    margin: 20px 0;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botoes button {
+    border: 1px solid #000;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: .2s ease-in-out;
+}
+
+.botoes button:hover {
+    background-color: #727171;
+}
